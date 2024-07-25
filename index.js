@@ -87,6 +87,6 @@ app.put("/todos/:id", (req, res) => {
   }
 });
 
-app.listen(port, hostname, () => {
-  console.log(`Server is running on http://${hostname}:${port}`);
+app.listen(3000, hostname, () => {
+  console.log(`Server is running on http://${hostname}:${3000}`);
 });
