@@ -87,6 +87,6 @@ app.put("/todos/:id", (req, res) => {
   }
 });
 
-app.listen(3000, hostname, () => {
+app.listen(3000, () => {
   console.log(`Server is running on http://${hostname}:${3000}`);
 });
